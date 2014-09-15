@@ -4,14 +4,16 @@ import (
 	"fmt"
 )
 
+const OneBillion = 1000000000
+
 func main() {
-	var divisor int = 5
-	var step float32 = 1 / float32(divisor)
-	var total float32 = 0
-	for i := 0; i < divisor; i++ {
-		total += step
+	var fraction float32 = float32(1) / OneBillion
+	var sum float32 = 0
+
+	for i := 0; i < OneBillion; i++ {
+		sum += fraction
 	}
 
-	fmt.Println(total)
-	fmt.Println(step * float32(divisor))
+	fmt.Println(fraction * OneBillion)
+	fmt.Println(sum)
 }
