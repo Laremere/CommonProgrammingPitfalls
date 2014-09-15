@@ -1,0 +1,91 @@
+Common Programming Pitfalls
+Do's and Don'ts
+25 Sep 2013
+
+Scott Redig
+redi0068@d.umn.edu
+
+* Forgive the Go
+This talk will be using a programing language called Go.  
+Go is a great language, but for the material covered here, petend there are semi-colins at the end of each line, and it's the same thing...
+
+.image http://1-ps.googleusercontent.com/x/s.golang-org.appspot.com/golang.org/doc/gopher/talks.png
+
+* Welcome computer scientists
+Wait, what is computer science?
+
+.image http://1-ps.googleusercontent.com/x/s.golang-org.appspot.com/golang.org/doc/gopher/project.png
+
+* Welcome computer scientists
+Wait, what is a computer?
+
+"A computer is a general purpose device that can be programmed to carry out a set of arithmetic or logical operations automatically. Since a sequence of operations can be readily changed, the computer can solve more than one kind of problem." - Wikipedia
+
+* Welcome computer scientists
+Wait, what is science?
+
+"Science (from Latin scientia, meaning "knowledge"[1]) is a systematic enterprise that builds and organizes knowledge in the form of testable explanations and predictions about the universe.[2][3][4] In an older and closely related meaning, "science" also refers to a body of knowledge itself, of the type that can be rationally explained and reliably applied. A practitioner of science is known as a scientist." - Wikipedia
+
+* What does this mean?
+
+.image http://upload.wikimedia.org/wikipedia/commons/9/93/Equals_sign_in_mathematics.jpg
+
+* An unequal equal sign
+
+.play equal.go
+
+* An unequal equal sign
+
+.play equal2.go
+
+* Be the computer
+
+.image http://25.media.tumblr.com/tumblr_m9td22spPd1rb0pt9o1_500.gif
+
+* Google it
+
+.image google.png
+
+* A slight adjustment can lead to better results
+
+.image google2.png
+
+* On clever code
+
+"Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it." — Brian Kernighan
+
+* A clever example
+
+.play clever.go
+
+* Not so clever
+
+.play clever2.go
+
+* Naming
+
+"There are only two hard things in Computer Science: cache invalidation, naming things, and off-by-one errors." - Phil Karlton (partially)
+
+* Naming
+
+.play variableNamingBad.go
+
+* Naming
+
+.play variableNamingGood.go
+
+* What does this mean?
+
+.image http://cdn.zendesk.com/images/blog/plus.jpeg
+
+* So far so good
+
+.play plus.go
+
+* But wait
+
+.play plus2.go
+
+* Floating Point Woes
+
+.play floating.go
